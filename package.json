@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "scully": "npx scully",
+    "scully.scan": "npx scully --scanRoutes",
+    "scully.serve": "npx scully serve"
   },
   "private": true,
   "dependencies": {
