@@ -7,5 +7,9 @@ export const config: ScullyConfig = {
   projectRoot: './src',
   projectName: 'scully-dynamic-route-test',
   outDir: './dist/static',
-  routes: {},
+  routes: {
+    '/stuff/:id': {
+      type: 'ignored',
+    },
+  },
 };
